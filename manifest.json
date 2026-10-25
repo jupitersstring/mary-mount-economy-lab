@@ -1,0 +1,191 @@
+{
+  "version": "2.0.0",
+  "distribution": "public inspection; permission required; fonts excluded",
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 565,
+      "sha256": "df4d13fcb750b7dd762dbe8aa316d14f53a5df2c55d6c5efd0c2aae749d459d3"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 177,
+      "sha256": "3b6d84f86bc262949e0834c7ab982061dea868e28dd5f251391bdcd4834ec766"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1347,
+      "sha256": "0338e5a453166f70e29dca531301e61f6616201c7b644bfad5caebf9d8856741"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1858,
+      "sha256": "091141f95ea280746ef01efa1311e165a95e542250d9395ba7894cbb17500a3a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3637,
+      "sha256": "614caaac4836d0415735367194f1ec0ad4663001e960928cc9bfa648e8225f82"
+    },
+    {
+      "path": "app.js",
+      "bytes": 46208,
+      "sha256": "2e86f2e8e71853750e95e19b8392cc4624dfb54149f5c06b948c8bb7d6f0c605"
+    },
+    {
+      "path": "archetypes.py",
+      "bytes": 11167,
+      "sha256": "b7d95ad4c25146ab5aafb47a526cdc7aca130e2bf0c35917762ac66e6642e7ff"
+    },
+    {
+      "path": "data/example_case.json",
+      "bytes": 6604,
+      "sha256": "1537d258ea99c94929c1cd256558bb3838b0b71d35ddd89fd1b2603ef4a9333c"
+    },
+    {
+      "path": "data/example_results.csv",
+      "bytes": 373794,
+      "sha256": "76d02ad0181843db9d09811029a08856a464589f125646d4e1f01e1f9d498ff8"
+    },
+    {
+      "path": "data/example_valuations.csv",
+      "bytes": 307247,
+      "sha256": "e6bcfe11809a733036073e2fc077dc35370aa86f59e5325ba7f9c3775f410ef8"
+    },
+    {
+      "path": "data/experiment-comparisons.json",
+      "bytes": 8177,
+      "sha256": "a69de4eb556498a125cec9e6e985e49bc0c431447063d65db40621f4643f224b"
+    },
+    {
+      "path": "data/fred_snapshot.json",
+      "bytes": 7491,
+      "sha256": "b456546bea9bd81c74806dfbd782415879953207197fe4fa483f23ed1ce0e042"
+    },
+    {
+      "path": "data/issuer-template.json",
+      "bytes": 1199,
+      "sha256": "a5b6f2f84481d567d339bd5cd729d765750a424e70e7d1779112dcdc0e33ade5"
+    },
+    {
+      "path": "data/qualification-summary.json",
+      "bytes": 302,
+      "sha256": "79d4df39af2884491c8882a49115d67c956559ee8a80dd6d352aa65ad89375d8"
+    },
+    {
+      "path": "data/template.csv",
+      "bytes": 107,
+      "sha256": "7fda26c5e96e3ff49d4f1fc3396f75ab408c408e03afc8a284b3dc39f7390391"
+    },
+    {
+      "path": "data_adapter.py",
+      "bytes": 6440,
+      "sha256": "f4306a6c73a3cd5608a799abc1bded71cb696af75205c17d9f59889ca65ce41c"
+    },
+    {
+      "path": "docs/preview.jpg",
+      "bytes": 144427,
+      "sha256": "4817202760bf42cf2c7724a2b9cc4c865f0151a44f0536e8ab69c70c529c9dbd"
+    },
+    {
+      "path": "experiments.html",
+      "bytes": 6966,
+      "sha256": "2850eac95ce737dc0650580d3ba5dbb2cc8ecad3411284de2574220a3aaadce4"
+    },
+    {
+      "path": "finance.py",
+      "bytes": 17682,
+      "sha256": "ee5de2242fb0b6331841611122691aeda7e41eae125fc0920803f0c8a0d2131d"
+    },
+    {
+      "path": "guide.html",
+      "bytes": 5756,
+      "sha256": "f86ce3c18628ad47a4229b06dfba3f430a3a38523e5e29f769e9349ab763c536"
+    },
+    {
+      "path": "hard_money_forrester_with_knobs.py",
+      "bytes": 7710,
+      "sha256": "a0371b1a0d5a35c7573d1e39ee51605a903607f24ff57d58f75dcebedf3cb7dc"
+    },
+    {
+      "path": "index.html",
+      "bytes": 11961,
+      "sha256": "30a8fa25e7c4e3ba5576cdfb59c173f57961a03f2333470d4d30cb26cc45bdfa"
+    },
+    {
+      "path": "initial.js",
+      "bytes": 1640552,
+      "sha256": "4b0603c975f5b636adaa0de966addaa9b885c17de19146738e7e5274cac637f3"
+    },
+    {
+      "path": "laboratory.py",
+      "bytes": 2127,
+      "sha256": "0ce46c03aa6baec05a1b971a90c110d74354fa097e152a473f10ced5bdc47417"
+    },
+    {
+      "path": "methods.html",
+      "bytes": 11918,
+      "sha256": "77af1907b1d095f5c2484ca47d4364c9ae683a4e77bed7c04619f7fbe84a0ea9"
+    },
+    {
+      "path": "model.py",
+      "bytes": 37905,
+      "sha256": "6bbd1709f28cd6959c1f7c9dc9c18dbd49c7aec604e3e165fd183806e0e3c0f4"
+    },
+    {
+      "path": "permissions.html",
+      "bytes": 2517,
+      "sha256": "30881c86f65dc500fd7673b2c826db87daa5d27155462763e05ce3e6bc0a70b0"
+    },
+    {
+      "path": "prototypes.html",
+      "bytes": 5450,
+      "sha256": "b10f12fa911bd5ed14408cd339e8482ff653fe710c041caa428e5b229e93ede0"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 6903,
+      "sha256": "50a88913d2c8f58faaee8ee76f474b589108893861061856526ca24a9581d540"
+    },
+    {
+      "path": "research.css",
+      "bytes": 1893,
+      "sha256": "39d2281e87f6e368edd6e953c049b8286f76d9564a8749185e900bff973b3ecb"
+    },
+    {
+      "path": "research.html",
+      "bytes": 27111,
+      "sha256": "a02683466e2f0583b9649e29fb86d12f91b58a38778d99fb8c1be8f5cf87843e"
+    },
+    {
+      "path": "style.css",
+      "bytes": 6963,
+      "sha256": "4a936b26bedcceea4f0f52259e8fb4248ab883b551d66fb6f9e878b2d4826c5d"
+    },
+    {
+      "path": "tests/test_extension.py",
+      "bytes": 10325,
+      "sha256": "0426faf0547561785c5beed157ede8a0bbf990f80b84c3f73a11b19e92cd80ae"
+    },
+    {
+      "path": "tests/test_model.py",
+      "bytes": 15623,
+      "sha256": "414add99bf895bf6911a60b3ce7293fdc08661a7d0123f4affa31b0c06b06cae"
+    },
+    {
+      "path": "theory.html",
+      "bytes": 1128,
+      "sha256": "cc70d519543243c254600dcc291e0d54b62df57d0521f524f519cee5ec8222e8"
+    },
+    {
+      "path": "verification.html",
+      "bytes": 5641,
+      "sha256": "5f6c3604ecb4ecd224f4e5224c9972aa597fa92a897600e5673373deb3012703"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 4192,
+      "sha256": "ab3251190495536957ff07431af57554b1a4f05a8bc80864eace3d19948425b0"
+    }
+  ]
+}

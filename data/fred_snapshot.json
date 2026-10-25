@@ -1,0 +1,294 @@
+{
+  "retrieved_at": "2026-10-25T16:54:55.819935+00:00",
+  "vintage": "Latest revised observations; not a point-in-time vintage",
+  "coverage": "United States; a small context snapshot, not a fitted model",
+  "series": [
+    {
+      "series_id": "GDP",
+      "name": "Nominal GDP",
+      "units": "USD billion SAAR",
+      "frequency": "Quarterly",
+      "url": "https://fred.stlouisfed.org/series/GDP",
+      "observations": [
+        {
+          "date": "2026-04-01",
+          "period": "Q2 2026",
+          "value": 32563.03
+        },
+        {
+          "date": "2026-01-01",
+          "period": "Q1 2026",
+          "value": 31906.274
+        },
+        {
+          "date": "2025-10-01",
+          "period": "Q4 2025",
+          "value": 31462.523
+        },
+        {
+          "date": "2025-07-01",
+          "period": "Q3 2025",
+          "value": 31180.493
+        },
+        {
+          "date": "2025-04-01",
+          "period": "Q2 2025",
+          "value": 30630.174
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    },
+    {
+      "series_id": "GCE",
+      "name": "Government purchases, including investment",
+      "units": "USD billion SAAR",
+      "frequency": "Quarterly",
+      "url": "https://fred.stlouisfed.org/series/GCE",
+      "observations": [
+        {
+          "date": "2026-04-01",
+          "period": "Q2 2026",
+          "value": 5626.646
+        },
+        {
+          "date": "2026-01-01",
+          "period": "Q1 2026",
+          "value": 5483.833
+        },
+        {
+          "date": "2025-10-01",
+          "period": "Q4 2025",
+          "value": 5409.276
+        },
+        {
+          "date": "2025-07-01",
+          "period": "Q3 2025",
+          "value": 5404.135
+        },
+        {
+          "date": "2025-04-01",
+          "period": "Q2 2025",
+          "value": 5332.951
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    },
+    {
+      "series_id": "GPDI",
+      "name": "Private domestic investment",
+      "units": "USD billion SAAR",
+      "frequency": "Quarterly",
+      "url": "https://fred.stlouisfed.org/series/GPDI",
+      "observations": [
+        {
+          "date": "2026-04-01",
+          "period": "Q2 2026",
+          "value": 5823.469
+        },
+        {
+          "date": "2026-01-01",
+          "period": "Q1 2026",
+          "value": 5717.244
+        },
+        {
+          "date": "2025-10-01",
+          "period": "Q4 2025",
+          "value": 5596.325
+        },
+        {
+          "date": "2025-07-01",
+          "period": "Q3 2025",
+          "value": 5531.645
+        },
+        {
+          "date": "2025-04-01",
+          "period": "Q2 2025",
+          "value": 5466.017
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    },
+    {
+      "series_id": "NETEXP",
+      "name": "Net exports",
+      "units": "USD billion SAAR",
+      "frequency": "Quarterly",
+      "url": "https://fred.stlouisfed.org/series/NETEXP",
+      "observations": [
+        {
+          "date": "2026-04-01",
+          "period": "Q2 2026",
+          "value": -880.263
+        },
+        {
+          "date": "2026-01-01",
+          "period": "Q1 2026",
+          "value": -820.787
+        },
+        {
+          "date": "2025-10-01",
+          "period": "Q4 2025",
+          "value": -811.952
+        },
+        {
+          "date": "2025-07-01",
+          "period": "Q3 2025",
+          "value": -782.989
+        },
+        {
+          "date": "2025-04-01",
+          "period": "Q2 2025",
+          "value": -875.383
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    },
+    {
+      "series_id": "GDPDEF",
+      "name": "GDP price deflator",
+      "units": "2017 = 100",
+      "frequency": "Quarterly",
+      "url": "https://fred.stlouisfed.org/series/GDPDEF",
+      "observations": [
+        {
+          "date": "2026-04-01",
+          "period": "Q2 2026",
+          "value": 133.411
+        },
+        {
+          "date": "2026-01-01",
+          "period": "Q1 2026",
+          "value": 131.44
+        },
+        {
+          "date": "2025-10-01",
+          "period": "Q4 2025",
+          "value": 130.412
+        },
+        {
+          "date": "2025-07-01",
+          "period": "Q3 2025",
+          "value": 129.31
+        },
+        {
+          "date": "2025-04-01",
+          "period": "Q2 2025",
+          "value": 128.243
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    },
+    {
+      "series_id": "CPATAX",
+      "name": "Corporate profits after tax, IVA and CCAdj",
+      "units": "USD billion SAAR",
+      "frequency": "Quarterly",
+      "url": "https://fred.stlouisfed.org/series/CPATAX",
+      "observations": [
+        {
+          "date": "2026-04-01",
+          "period": "Q2 2026",
+          "value": 3877.434
+        },
+        {
+          "date": "2026-01-01",
+          "period": "Q1 2026",
+          "value": 3600.539
+        },
+        {
+          "date": "2025-10-01",
+          "period": "Q4 2025",
+          "value": 3581.268
+        },
+        {
+          "date": "2025-07-01",
+          "period": "Q3 2025",
+          "value": 3402.32
+        },
+        {
+          "date": "2025-04-01",
+          "period": "Q2 2025",
+          "value": 3281.549
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    },
+    {
+      "series_id": "POPTHM",
+      "name": "Population",
+      "units": "thousand persons",
+      "frequency": "Monthly",
+      "url": "https://fred.stlouisfed.org/series/POPTHM",
+      "observations": [
+        {
+          "date": "2026-08-01",
+          "period": "Aug 2026",
+          "value": 343008.0
+        },
+        {
+          "date": "2026-07-01",
+          "period": "Jul 2026",
+          "value": 342909.0
+        },
+        {
+          "date": "2026-06-01",
+          "period": "Jun 2026",
+          "value": 342822.0
+        },
+        {
+          "date": "2026-05-01",
+          "period": "May 2026",
+          "value": 342746.0
+        },
+        {
+          "date": "2026-04-01",
+          "period": "Apr 2026",
+          "value": 342680.0
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    },
+    {
+      "series_id": "GS10",
+      "name": "10-year Treasury yield",
+      "units": "percent",
+      "frequency": "Monthly",
+      "url": "https://fred.stlouisfed.org/series/GS10",
+      "observations": [
+        {
+          "date": "2026-09-01",
+          "period": "Sep 2026",
+          "value": 4.99
+        },
+        {
+          "date": "2026-08-01",
+          "period": "Aug 2026",
+          "value": 4.68
+        },
+        {
+          "date": "2026-07-01",
+          "period": "Jul 2026",
+          "value": 4.6
+        },
+        {
+          "date": "2026-06-01",
+          "period": "Jun 2026",
+          "value": 4.47
+        },
+        {
+          "date": "2026-05-01",
+          "period": "May 2026",
+          "value": 4.48
+        }
+      ],
+      "method": "Official FRED page: displayed observations"
+    }
+  ],
+  "anchors": {
+    "period": "2026-04-01",
+    "government_share": 0.17279245819569003,
+    "investment_share": 0.1788368281452924,
+    "net_export_share": -0.02703258879778694,
+    "note": "Same-quarter nominal expenditure ratios. No annualisation multiplication is needed: all four flows are SAAR. These are suggested opening anchors only. Consumption, household split, stocks and behavioural coefficients remain assumptions."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "created_date": "2026-10-25",
+  "model_version": "2.0.0",
+  "original_sources": [
+    {
+      "path": "marymount-quant/notebooks/macro/Econ_simulator.ipynb",
+      "sha256": "2b59dde25c705597ddaf5ebc960c76a9b8c5791cc1fcfa700b5b1da3c2e32fdb",
+      "bytes": 132334,
+      "cells": 15,
+      "duplicate": "marymount-quant-copy/notebooks/macro/Econ_simulator.ipynb",
+      "duplicate_identical": true
+    },
+    {
+      "path": "marymount-quant/notebooks/misc/Monetary_systems_lab.ipynb",
+      "sha256": "a400c1e12e5fac43aef73e4f71d90f5ff35a6e21f844c25dbc789c0820b393b9",
+      "bytes": 43352,
+      "cells": 7,
+      "duplicate": "marymount-quant-copy/notebooks/misc/Monetary_systems_lab.ipynb",
+      "duplicate_identical": true
+    }
+  ],
+  "separate_filename_status": "Standalone hard_money_forrester_with_knobs.py not found; mechanisms inspected in notebooks. New launcher retains the requested name.",
+  "originals_modified": false,
+  "prototype_notebooks": [
+    {
+      "path": "marymount-quant/notebooks/macro/Econ_simulator.ipynb",
+      "sha256": "2b59dde25c705597ddaf5ebc960c76a9b8c5791cc1fcfa700b5b1da3c2e32fdb"
+    },
+    {
+      "path": "marymount-quant/notebooks/misc/Monetary_systems_lab.ipynb",
+      "sha256": "a400c1e12e5fac43aef73e4f71d90f5ff35a6e21f844c25dbc789c0820b393b9"
+    },
+    {
+      "path": "marymount-quant/notebooks/misc/MM Comps 2.ipynb",
+      "sha256": "352cd6ad75ba5efc42312ea344cf96e2d45ffcc055c8af46313a44148d99d67d"
+    },
+    {
+      "path": "marymount-quant/notebooks/fundamentals/trailing_valuation_ratios_m.ipynb",
+      "sha256": "a113286e53454df3b84158301d07e44bf4e6aaff29874fff7ff4dd7eb899ecd2"
+    }
+  ],
+  "template": {
+    "name": "Mary Mount Aureate Continuous Research",
+    "reference_sha256": "fdf4876cb5345b6ced9cf2e45f6c9ae3f514ce26ddebc7e91cd7a02e471500fb",
+    "reference_unchanged": true,
+    "adaptation": "The local design reference remains private. Public HTML uses Times New Roman, a closed frame and proportional spacing; Aureate font software is not distributed."
+  },
+  "inspected_valuation_modules": [
+    {
+      "path": "prior-valuation-prototype/mm_financial_metrics.py",
+      "sha256": "ce9ac984bc88689329cb6ab5d01ffd284c492992106bae8d283c3be3ace809e4"
+    },
+    {
+      "path": "prior-valuation-prototype/mm_accounting_lab.py",
+      "sha256": "3fde5768e2daee2583a97d9b29e20c73971164e6aa38e261bcb1fcfc1d24aae6"
+    },
+    {
+      "path": "prior-macro-prototype/ae_macro_engine.py",
+      "sha256": "4b7805cbfe18ed835b341b486cdc76ddc0fc8cee1a4972fb67a23d990283ffcc"
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "cantillon",
+      "title": "Cantillon, Essay on the Nature of Trade in General, Parts I\u2013III",
+      "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/285/Cantillon_0039.html"
+    },
+    {
+      "id": "smith",
+      "title": "Smith, Wealth of Nations, Book II, chapter II",
+      "url": "https://pressbooks.library.torontomu.ca/wealthofnations/chapter/2-2/"
+    },
+    {
+      "id": "wicksell",
+      "title": "Wicksell, The Influence of the Rate of Interest on Prices (1906)",
+      "url": "https://www.econlib.org/library/Essays/wcksInt.html"
+    },
+    {
+      "id": "keynes",
+      "title": "Keynes, Economic Possibilities for our Grandchildren (1930)",
+      "url": "https://www.hetwebsite.net/het/texts/keynes/keynes1930grandchildren.htm"
+    },
+    {
+      "id": "mill",
+      "title": "Mill, Principles of Political Economy, Book IV, chapter VI",
+      "url": "https://cuny.manifoldapp.org/read/principles-of-political-economy-ashley-ed/section/90895ea2-7781-48f7-b0d0-0f0da398fc4a"
+    },
+    {
+      "id": "boe",
+      "title": "Bank of England, Money creation in the modern economy (2014)",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
+    },
+    {
+      "id": "war",
+      "title": "Bank of England, institutional history",
+      "url": "https://www.bankofengland.co.uk/about/history"
+    },
+    {
+      "id": "fed",
+      "title": "Federal Reserve History, history of the Federal Reserve",
+      "url": "https://www.federalreservehistory.org/essays/federal-reserve-history"
+    },
+    {
+      "id": "bagehot",
+      "title": "Bagehot, Lombard Street (1873)",
+      "url": "https://www.gutenberg.org/cache/epub/4359/pg4359.html"
+    },
+    {
+      "id": "fisher",
+      "title": "Fisher, 100% Money (1935; revised 1936), primary book",
+      "url": "https://mises.org/library/book/100-money"
+    },
+    {
+      "id": "kumhof",
+      "title": "Benes and Kumhof, The Chicago Plan Revisited, WP/12/202 (2012)",
+      "url": "https://www.uvm.edu/giee/pdfs/thechicagoplanrevisited.pdf"
+    },
+    {
+      "id": "schumpeter",
+      "title": "Schumpeter, The Theory of Economic Development (1934), chapters II\u2013III",
+      "url": "https://cruel.org/books/hy/shortschumpeter/SchumpeterTheoryofEconDev.html"
+    },
+    {
+      "id": "george",
+      "title": "George, Progress and Poverty, Book VIII, chapter II",
+      "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=35"
+    },
+    {
+      "id": "debt",
+      "title": "Blanchard, Public Debt and Low Interest Rates (2019)",
+      "url": "https://www.nber.org/papers/w25621"
+    },
+    {
+      "id": "poverty",
+      "title": "Balboni et al., Why Do People Stay Poor? (2021 working paper)",
+      "url": "https://www.nber.org/papers/w29340"
+    },
+    {
+      "id": "currency",
+      "title": "Bordo, Meissner and Redish, How Original Sin Was Overcome (2003)",
+      "url": "https://www.nber.org/papers/w9841"
+    },
+    {
+      "id": "sfc",
+      "title": "Godley and Lavoie, Kaleckian Models of Growth in a Coherent Stock-Flow Monetary Framework",
+      "url": "https://www.levyinstitute.org/pubs/Lavoie%20Godley_2001-02.pdf"
+    },
+    {
+      "id": "finance",
+      "title": "Damodaran, valuation teaching materials",
+      "url": "https://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/valuation.pdf"
+    },
+    {
+      "id": "ev",
+      "title": "Damodaran, relative valuation and firm-value multiples",
+      "url": "https://people.stern.nyu.edu/adamodar/podcasts/valspr20/session18slides.pdf"
+    },
+    {
+      "id": "roic",
+      "title": "Damodaran, uValue book, growth and reinvestment",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/uValue/uValuebook.pdf"
+    },
+    {
+      "id": "friedman",
+      "title": "Friedman, The Role of Monetary Policy (1968)",
+      "url": "https://www.aeaweb.org/aer/top20/58.1.1-17.pdf"
+    },
+    {
+      "id": "fisher_debt",
+      "title": "Fisher, The Debt-Deflation Theory of Great Depressions (1933)",
+      "url": "https://fraser.stlouisfed.org/title/debt-deflation-theory-great-depressions-3596/fulltext"
+    }
+  ],
+  "distribution": "Public repository; permission required for product reuse; private font binaries excluded.",
+  "local_paths_redacted": true
+}

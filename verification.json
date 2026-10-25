@@ -1,0 +1,159 @@
+{
+  "version": "2.0.0",
+  "verified_at": "2026-10-25T18:16:08.201326+00:00",
+  "automated_tests": 59,
+  "automated_test_status": "passed",
+  "qualified_runs": 63,
+  "archetypes": 11,
+  "experiments": 17,
+  "meta_components": 6,
+  "max_accounting_residuals": {
+    "goods_residual": 2.842170943040401e-14,
+    "sector_residual": 4.973799150320701e-14,
+    "bank_residual": 4.263256414560601e-13,
+    "stock_flow_residual": 6.439293542825908e-15
+  },
+  "max_matrix_column_residual": 6.394884621840902e-14,
+  "default_aggregate_fcfe_residual": 1.0658141036401503e-14,
+  "default_financing_residual": 7.105427357601002e-15,
+  "core_browser_cli_replay": {
+    "rows": 242,
+    "max_numeric_difference": 0,
+    "case_version": "2.0.0"
+  },
+  "valuation_browser_python_replay": {
+    "rows": 484,
+    "columns": 53,
+    "max_numeric_difference": 0
+  },
+  "original_sources_unchanged": true,
+  "template_reference_unchanged": true,
+  "local_links_resolve": true,
+  "data_snapshot_retrieved_at": "2026-10-25T16:54:55.819935+00:00",
+  "limitations": [
+    "Synthetic behavioural parameters and interpretive ideology mappings, not estimated effects.",
+    "Fisher and Benes\u2013Kumhof transition illustrations; dynamic public-funding closure does not reproduce their complete regimes.",
+    "No defaults, full bank capital/loss model, overlapping age cohorts, exchange-rate market or endogenous land use.",
+    "No issuer filing reconciliation or point-in-time historical calibration has been established.",
+    "Live data refresh adapter unchanged from v1; the displayed snapshot retains its stated retrieval time."
+  ],
+  "distribution": "public, permission required; Times New Roman; private fonts excluded",
+  "prior_local_edition_browser_checks": {
+    "desktop_width": 1280,
+    "narrow_width": 319,
+    "all_seven_views_no_document_overflow": true,
+    "presets": [
+      "fisher",
+      "kumhof"
+    ],
+    "meta_mapping": "ownership",
+    "missing_claims": true,
+    "missing_fx": true,
+    "undo": true,
+    "save_load": true,
+    "animation_play_pause": true,
+    "valuation_export": true,
+    "csv_import_and_explicit_anchor_application": true
+  },
+  "prior_local_edition_http_routes": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/app.js",
+      "status": 200
+    },
+    {
+      "path": "/style.css",
+      "status": 200
+    },
+    {
+      "path": "/initial.js",
+      "status": 200
+    },
+    {
+      "path": "/research.html",
+      "status": 200
+    },
+    {
+      "path": "/research.css",
+      "status": 200
+    },
+    {
+      "path": "/methods.html",
+      "status": 200
+    },
+    {
+      "path": "/prototypes.html",
+      "status": 200
+    },
+    {
+      "path": "/experiments.html",
+      "status": 200
+    },
+    {
+      "path": "/guide.html",
+      "status": 200
+    },
+    {
+      "path": "/theory.html",
+      "status": 200
+    },
+    {
+      "path": "/verification.html",
+      "status": 200
+    },
+    {
+      "path": "/verification.json",
+      "status": 200
+    },
+    {
+      "path": "/provenance.json",
+      "status": 200
+    },
+    {
+      "path": "/issuer-template.json",
+      "status": 200
+    },
+    {
+      "path": "/data/template.csv",
+      "status": 200
+    },
+    {
+      "path": "/data/fred_snapshot.json",
+      "status": 200
+    },
+    {
+      "path": "/fonts/AureateRomanLiving-Regular.woff2",
+      "status": 200
+    },
+    {
+      "path": "/fonts/AureateRomanLiving-Bold.woff2",
+      "status": 200
+    },
+    {
+      "path": "/fonts/AureateRomanLiving-Italic.woff2",
+      "status": 200
+    }
+  ],
+  "publication_checks": {
+    "status": "passed",
+    "checked_at": "2026-10-25T18:31:38.246441+00:00",
+    "automated_tests": 59,
+    "static_routes": 19,
+    "local_paths_removed": true,
+    "private_font_files_excluded": true,
+    "private_font_routes_unavailable": true,
+    "permission_notice_in_readme_license_and_ui": true,
+    "javascript_syntax": "passed",
+    "public_browser": {
+      "font": "Times New Roman",
+      "font_face_rules": 0,
+      "width": 1280,
+      "document_scroll_width": 1280,
+      "kumhof_comparison": "passed"
+    },
+    "ci": "Configured; remote result recorded separately on GitHub"
+  }
+}
