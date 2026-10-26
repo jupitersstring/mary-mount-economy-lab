@@ -4,13 +4,15 @@
 
 An economic systems laboratory connecting fiscal and monetary policy, credit, work and leisure, wages, household wealth and ownership to corporate cash flows and conditional security valuations.
 
-![Guided mechanism map and earnings explanation](docs/guided-preview.jpg)
+![Real output per capita with reference and alternative paths](docs/percapita-preview.png)
 
-[Narrow-screen explanation preview](docs/guided-mobile.jpg)
+[Mobile charts](docs/percapita-mobile.png) · [Guided mechanism map](docs/guided-preview.jpg)
 
 ## What is included
 
 - A question-led walkthrough, clickable mechanism map, exact earnings/value bridges and plain-language definitions.
+- Per-capita real output, consumption, household income and wealth, corporate earnings and public liabilities, with a population comparison.
+- Interactive charts with values, common-base indices and differences, shock timing, shared year inspection, and CSV/SVG exports.
 - A stock-flow accounting core, transaction matrix and explicit balance-sheet counterparts.
 - Eleven interpretive economic archetypes and six component controls.
 - Seventeen experiments with reference and alternative paths, animation and phase plots.
@@ -33,7 +35,7 @@ The launcher opens `http://127.0.0.1:8765/`. Use `--port 8766` if needed. Stop w
 
 ```sh
 python3 -m unittest discover -s tests -v
-node --test tests/test_explain.cjs
+node --test tests/*.cjs
 python3 hard_money_forrester_with_knobs.py --case data/example_case.json --csv results.csv
 ```
 

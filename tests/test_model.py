@@ -253,7 +253,7 @@ class HTTPTests(unittest.TestCase):
             self.assertIn('issuer',data['result']['scenario'])
 
     def test_guided_assets_and_help_are_available(self):
-        for path in ('/explain.js','/learn.js','/ux-guide.html'):
+        for path in ('/explain.js','/learn.js','/charts.js','/ux-guide.html'):
             with self.request(path) as response:
                 self.assertEqual(response.status,200)
                 self.assertTrue(response.read())

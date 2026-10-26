@@ -1,5 +1,5 @@
 {
-  "interface_version": "2.1.0",
+  "interface_version": "2.2.0",
   "engine_version": "2.0.0",
   "cases": [
     {
@@ -34,6 +34,12 @@
     },
     {
       "id": "debt",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    },
+    {
+      "id": "population",
       "frames": 121,
       "accounting_pass": true,
       "valuation_available": true

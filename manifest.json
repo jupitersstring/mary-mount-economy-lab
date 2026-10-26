@@ -1,12 +1,12 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "engine_version": "2.0.0",
   "distribution": "public inspection; permission required; fonts excluded",
   "files": [
     {
       "path": ".github/workflows/tests.yml",
-      "bytes": 665,
-      "sha256": "810c8db39a2bc9b18595e459690f27c10d91a5a6acbd54fc1e6c801ca1740a75"
+      "bytes": 680,
+      "sha256": "cbce357e7080808859fea01b457d400be52ffef5877cbc7a8435202a2a6ec27a"
     },
     {
       "path": ".gitignore",
@@ -25,18 +25,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3996,
-      "sha256": "969112311313e0f71d1502d86746ad16597edeeed0252dd44d6dc063067510f2"
+      "bytes": 4307,
+      "sha256": "d441fe4dc9a63443e5c430c62fdb20f8ea3e0e614e604542f84e1c9912949892"
     },
     {
       "path": "app.js",
-      "bytes": 47070,
-      "sha256": "4790ebbb8fc4fe1d37fa7f08df8fb327488a8385b39f060e4f85626329d2c064"
+      "bytes": 46829,
+      "sha256": "d73109de036257bf376d436b5a3018526ce4ae5b93baf47c0ba4a4ba0c19b26a"
     },
     {
       "path": "archetypes.py",
       "bytes": 11167,
       "sha256": "b7d95ad4c25146ab5aafb47a526cdc7aca130e2bf0c35917762ac66e6642e7ff"
+    },
+    {
+      "path": "charts.js",
+      "bytes": 15321,
+      "sha256": "8c854969ea7941433556eae56c52455e364c2645de0c78d6390c9a024c37ad3a"
     },
     {
       "path": "data/example_case.json",
@@ -65,8 +70,8 @@
     },
     {
       "path": "data/guided-qualification.json",
-      "bytes": 934,
-      "sha256": "d54464c525b10a8a4bac023e90e71d9c8022a01c6ef057b36c8da7320fa39040"
+      "bytes": 1059,
+      "sha256": "d60c68e4ba3e2411c40ef7a04e27a9deed6a18d6b73977cf822d4e744eac4b5b"
     },
     {
       "path": "data/issuer-template.json",
@@ -99,6 +104,16 @@
       "sha256": "b4f20bca90495658815247c536c0851d30c4fac7fa8090e4e9d4820d86b2e2bd"
     },
     {
+      "path": "docs/percapita-mobile.png",
+      "bytes": 49836,
+      "sha256": "643c817140895461973cf2ca985ab650b692c4169fd41eda9d8315182bea542b"
+    },
+    {
+      "path": "docs/percapita-preview.png",
+      "bytes": 65435,
+      "sha256": "707b9752241228e6a6a80265f786154155fb9f7bbf81289a584c51d5ea210239"
+    },
+    {
       "path": "docs/preview.jpg",
       "bytes": 144427,
       "sha256": "4817202760bf42cf2c7724a2b9cc4c865f0151a44f0536e8ab69c70c529c9dbd"
@@ -110,8 +125,8 @@
     },
     {
       "path": "explain.js",
-      "bytes": 10822,
-      "sha256": "cce781abfc30a261d32a885374e7890c8d1d63e6e0db162c71658bc75a9eddd5"
+      "bytes": 11278,
+      "sha256": "bd46050f6c2ae31c6cc00a650a19f135d8fb94e6c2e9e25f6d531fd19407ad10"
     },
     {
       "path": "finance.py",
@@ -121,17 +136,17 @@
     {
       "path": "guide.html",
       "bytes": 6347,
-      "sha256": "52c4490581eeee1fc40952c27aceb11565a86cc2739dbe92a21b222b35c2426b"
+      "sha256": "8c8eb824df92d16e745abba8e1d550135349e3b79c972cc03b92ecf8b1035bfc"
     },
     {
       "path": "hard_money_forrester_with_knobs.py",
-      "bytes": 7793,
-      "sha256": "8478228acabf989aff005014596f3f885d69177cc1cea3a63d8b6a55e2207dd0"
+      "bytes": 7818,
+      "sha256": "01fea35b8341aa1b7283106e13af85408634bb3d9ffa6f986d6973b6444c761f"
     },
     {
       "path": "index.html",
-      "bytes": 14743,
-      "sha256": "b2993f992fe45f0fcf338a6904448f5a6058079ba98580be1efbda9bf358fc56"
+      "bytes": 17280,
+      "sha256": "44023873fab3364d2783ae4dec75208e4982cadb3cdd486440fd9f9a3dbcef8c"
     },
     {
       "path": "initial.js",
@@ -145,8 +160,8 @@
     },
     {
       "path": "learn.js",
-      "bytes": 13732,
-      "sha256": "787e3728b8b91b79e30d82a710cb780a0bf4a73ee40cdb733e3203039396e184"
+      "bytes": 13873,
+      "sha256": "77d723677a859ab8ac18c79ea790bab4e947b39278d3059940ff4786e4fea66c"
     },
     {
       "path": "methods.html",
@@ -185,8 +200,13 @@
     },
     {
       "path": "style.css",
-      "bytes": 10675,
-      "sha256": "2821d7996400b5555c84d41f568c3b5fc611adba9494e2543e3862f916d88121"
+      "bytes": 12251,
+      "sha256": "8ae6611aa9b33afd354ec0169641db1f89ad28e5456437ff9218a347004b3f5e"
+    },
+    {
+      "path": "tests/test_charts.cjs",
+      "bytes": 4371,
+      "sha256": "2305da6eb296a553ba9fe867091d4ec9fb559fbc17bdee3192554cf8557c50aa"
     },
     {
       "path": "tests/test_explain.cjs",
@@ -200,8 +220,8 @@
     },
     {
       "path": "tests/test_model.py",
-      "bytes": 15899,
-      "sha256": "7ded159bd32990153d0745ef321fde96bdc05b452e1cccb19be0ecdab17eb8bb"
+      "bytes": 15912,
+      "sha256": "9952d83aa6b7a67670c00f9b2820fde1df1c6047fe851d6e94209e853b2396a8"
     },
     {
       "path": "theory.html",
@@ -210,18 +230,18 @@
     },
     {
       "path": "ux-guide.html",
-      "bytes": 5428,
-      "sha256": "de8d00590c478ef96da9c3b571fbcec7e0dd7e84d62ac032be2ed522ce9d6c74"
+      "bytes": 8266,
+      "sha256": "9c55613b54ad2335b2a4a70db65967e99a3537885c197f58a7841c1431ed7c14"
     },
     {
       "path": "verification.html",
-      "bytes": 6516,
-      "sha256": "3d3cf35b61c4d2ec5ffff2dc12cb3838c65378757c7d8550016105b5f58c7c38"
+      "bytes": 7585,
+      "sha256": "c6ffbdfef77376674e891379882c17fa420979a3d20e7066a01c932a528a54ac"
     },
     {
       "path": "verification.json",
-      "bytes": 5160,
-      "sha256": "fb18c361328b2093a67802f5e038ecd4a2d54263173facd21d6b67c59cb4f0ba"
+      "bytes": 6512,
+      "sha256": "f67722d2b9cf427aa578c33e8cf9d19832f2cf6f66aa4c57f09c1c64aa040f5f"
     }
   ]
 }
