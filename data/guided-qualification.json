@@ -1,0 +1,48 @@
+{
+  "interface_version": "2.1.0",
+  "engine_version": "2.0.0",
+  "cases": [
+    {
+      "id": "fiscal",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    },
+    {
+      "id": "valuation",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    },
+    {
+      "id": "leisure",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    },
+    {
+      "id": "recipients",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    },
+    {
+      "id": "rates",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    },
+    {
+      "id": "debt",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    },
+    {
+      "id": "reserves",
+      "frames": 121,
+      "accounting_pass": true,
+      "valuation_available": true
+    }
+  ]
+}

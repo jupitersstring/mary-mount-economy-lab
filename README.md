@@ -4,10 +4,13 @@
 
 An economic systems laboratory connecting fiscal and monetary policy, credit, work and leisure, wages, household wealth and ownership to corporate cash flows and conditional security valuations.
 
-![Public edition with permission notice](docs/preview.jpg)
+![Guided mechanism map and earnings explanation](docs/guided-preview.jpg)
+
+[Narrow-screen explanation preview](docs/guided-mobile.jpg)
 
 ## What is included
 
+- A question-led walkthrough, clickable mechanism map, exact earnings/value bridges and plain-language definitions.
 - A stock-flow accounting core, transaction matrix and explicit balance-sheet counterparts.
 - Eleven interpretive economic archetypes and six component controls.
 - Seventeen experiments with reference and alternative paths, animation and phase plots.
@@ -20,7 +23,7 @@ The model is an original, uncalibrated synthesis. The Fisher/Kumhof dynamic path
 
 ## Run — owner or authorized users
 
-Python 3.9 or later; standard library only. After obtaining any required permission:
+Python 3.9 or later; standard library only for the application. Node.js 18 or later is needed only for the JavaScript explanation tests. After obtaining any required permission:
 
 ```sh
 python3 hard_money_forrester_with_knobs.py
@@ -30,6 +33,7 @@ The launcher opens `http://127.0.0.1:8765/`. Use `--port 8766` if needed. Stop w
 
 ```sh
 python3 -m unittest discover -s tests -v
+node --test tests/test_explain.cjs
 python3 hard_money_forrester_with_knobs.py --case data/example_case.json --csv results.csv
 ```
 
@@ -37,6 +41,7 @@ python3 hard_money_forrester_with_knobs.py --case data/example_case.json --csv r
 
 Start the launcher to view these HTML documents in a browser:
 
+- [How to read the lab](ux-guide.html)
 - [Research and primary sources](research.html)
 - [Implemented equations and model boundaries](methods.html)
 - [Seventeen computed experiments](experiments.html)
