@@ -252,6 +252,12 @@ class HTTPTests(unittest.TestCase):
             self.assertIn('monetary_plans',data['result'])
             self.assertIn('issuer',data['result']['scenario'])
 
+    def test_guided_assets_and_help_are_available(self):
+        for path in ('/explain.js','/learn.js','/charts.js','/ux-guide.html'):
+            with self.request(path) as response:
+                self.assertEqual(response.status,200)
+                self.assertTrue(response.read())
+
     def test_run_and_rejection(self):
         with self.request('/api/run',{'parameters':{'years':2},'shocks':[]}) as response:
             data=json.load(response);self.assertEqual(data['scenario']['rows'][-1]['t'],2)

@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
-  "verified_at": "2026-10-25T18:16:08.201326+00:00",
-  "automated_tests": 59,
+  "verified_at": "2026-10-26T19:33:06.567993+00:00",
+  "automated_tests": 60,
   "automated_test_status": "passed",
   "qualified_runs": 63,
   "archetypes": 11,
@@ -155,5 +155,70 @@
       "kumhof_comparison": "passed"
     },
     "ci": "Configured; remote result recorded separately on GitHub"
+  },
+  "interface_revision": {
+    "version": "2.1.0",
+    "date": "2026-10-26",
+    "python_tests": 60,
+    "explanation_tests": 13,
+    "python_status": "passed",
+    "explanation_status": "passed",
+    "guided_cases": 7,
+    "engine_equations_unchanged": true,
+    "static_routes": 22,
+    "browser_checks": {
+      "widths": [
+        319,
+        968,
+        1280
+      ],
+      "all_eight_views_no_document_overflow": true,
+      "all_guides_run": true,
+      "computed_undo": true,
+      "invalid_valuation_withheld": true,
+      "before_active_ended_shock_states": true,
+      "time_play_pause": true,
+      "lazy_charts": true,
+      "interest_counterflow": true,
+      "mobile_reference_and_alternative_visible_together": true,
+      "mobile_next_and_return_focus": true
+    },
+    "limits": "No novice-user comprehension study has been conducted. Arrows organise model mechanisms; bridges are arithmetic decompositions, not empirical causal attributions."
+  },
+  "interface_version": "2.2.0",
+  "chart_revision": {
+    "version": "2.2.0",
+    "date": "2026-10-26",
+    "python_tests": 60,
+    "javascript_tests": 26,
+    "chart_tests": 13,
+    "explanation_tests": 13,
+    "tests_status": "passed",
+    "guided_cases": 8,
+    "engine_equations_unchanged": true,
+    "per_capita_denominator": "Each path\u2019s uncalibrated population index, stored as labour; not workforce or actual headcount.",
+    "real_adjustment": "Each path\u2019s own price level.",
+    "browser_checks": {
+      "widths": [
+        319,
+        968,
+        1280
+      ],
+      "all_nine_views_no_document_overflow": true,
+      "values_index_difference": true,
+      "own_population_per_path": true,
+      "intrinsic_denominators_preserved": true,
+      "issuer_currency_scope_preserved": true,
+      "shared_keyboard_inspection": true,
+      "chart_click_inspection": true,
+      "time_play_pause": true,
+      "all_eight_markers_same_year": true,
+      "invalid_wealth_valuation_withheld": true,
+      "data_table_rows": 121,
+      "csv_download": true,
+      "csv_unit_basis_scale_metadata": true,
+      "svg_download": true
+    },
+    "limits": "Population is not calibrated to a real headcount. Household averages are not medians or group averages. No novice-user study or external policy-effect validation has been conducted."
   }
 }

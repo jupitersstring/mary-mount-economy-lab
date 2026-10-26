@@ -62,7 +62,7 @@ class Handler(BaseHTTPRequestHandler):
         if not self.safe_host():return self.reply(403,dict(error='Use the loopback URL printed by the launcher.'))
         path=urlsplit(self.path).path
         if path=='/api/bootstrap':return self.reply(200,bootstrap())
-        allowed={'/':'index.html','/index.html':'index.html','/app.js':'app.js','/style.css':'style.css',
+        allowed={'/':'index.html','/index.html':'index.html','/charts.js':'charts.js','/learn.js':'learn.js','/explain.js':'explain.js','/ux-guide.html':'ux-guide.html','/app.js':'app.js','/style.css':'style.css',
                  '/theory.html':'theory.html','/guide.html':'guide.html','/template.csv':'data/template.csv',
                  '/verification.html':'verification.html','/verification.json':'verification.json',
                  '/LICENSE':'LICENSE','/permissions.html':'permissions.html','/provenance.json':'provenance.json','/data/template.csv':'data/template.csv',
